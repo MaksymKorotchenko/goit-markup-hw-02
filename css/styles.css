@@ -81,6 +81,7 @@ footer .logo-color {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 .hero-button:hover,
@@ -96,36 +97,48 @@ footer .logo-color {
 }
 
 .attribute-text {
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.team-title {
-  font-size: 36px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  text-align: center;
+.team-section {
+  background-color: #f4f4fd;
 }
 
-.team-members h3 {
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.member-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.team-members p {
+.member-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.team-cell {
+  background: #fff;
 }
 
 .portfolio-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio-item {
@@ -139,6 +152,7 @@ footer .logo-color {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 footer {
@@ -149,7 +163,7 @@ footer .logo {
   color: #4d5ae5;
 }
 
-footer p {
+.footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

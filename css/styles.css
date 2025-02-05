@@ -56,8 +56,9 @@ footer .logo-color {
   color: #434455;
 }
 
-.address .nav-link:hover {
-  color: #4d5ae5;
+.address .nav-link:hover,
+.adress .nav-link:focus {
+  color: #404bbf;
 }
 
 .hero {
@@ -94,6 +95,7 @@ footer .logo-color {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .attribute-text {
@@ -113,6 +115,7 @@ footer .logo-color {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .member-title {
@@ -120,6 +123,7 @@ footer .logo-color {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .member-text {
@@ -139,6 +143,7 @@ footer .logo-color {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .portfolio-item {
@@ -146,6 +151,7 @@ footer .logo-color {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-item-desc {

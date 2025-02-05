@@ -44,6 +44,7 @@ footer .logo-color {
 .nav-link:focus {
   color: #404bbf;
 }
+
 .site-nav .nav-link:active {
   text-decoration: underline;
 }
@@ -57,7 +58,7 @@ footer .logo-color {
 }
 
 .address .nav-link:hover,
-.adress .nav-link:focus {
+.address .nav-link:focus {
   color: #404bbf;
 }
 
